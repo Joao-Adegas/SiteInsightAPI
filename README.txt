@@ -1,6 +1,11 @@
 This is an API where the user can enter a URL and provide a prompt (requesting some information related to the URL). Langchain will analyze the page and return the requested information based on the prompt.
 exemplos de entrada em Json: 
 
+Prerequisites:
+
+    Create an API key on the Groq website: https://console.groq.com/keys
+    Store this variable in an environment variable file (.env)
+
 INPUT: 
 {
 	"url":"youtube.com",
