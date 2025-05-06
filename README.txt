@@ -9,7 +9,7 @@ Prerequisites:
 INPUT: 
 {
 	"url":"youtube.com",
-	"prompt":"Me fale videos para aprender a investir meu dinheiro."
+	"prompt":"Tell me videos to learn how to invest my money. "
 }
 
 OUTPUT: "There are many YouTube channels that offer quality content on investments. Here are some channels and videos that might be useful:\n\n Investor Channel: Provides tips and strategies for investing in stocks, funds, and other assets.\n* Smart Investments: Covers topics such as financial planning, real estate investments, and cryptocurrencies.\n* Investment Lessons: Offers practical lessons on stock investing, options, and futures.\n* Financial Education: Provides videos on financial planning, budgeting, and investments.\n\nSome specific videos that may be useful include:\n\n* \"How to Start Investing in Stocks\" (Investor Channel)\n* \"5 Tips for Investing in Cryptocurrencies\" (Smart Investments)\n* \"The Ultimate Guide to Investing in Funds\" (Investment Lessons)\n* \"How to Create a Personalized Investment Plan\" (Financial Education)\n\nRemember, it is important to do your own research and not invest in anything you don’t fully understand. Additionally, it is always advisable to consult a financial professional before making investment decisions."*
