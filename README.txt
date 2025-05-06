@@ -1,6 +1,4 @@
-Esta e uma API , no qual o usuario pode colocar uma URL, e inserir um prompt ( pedir alguma informação em relação a URL )
-O Langchain vai analisar a página e retornar o pedido de informação em relação ao prompt.
-
+This is an API where the user can enter a URL and provide a prompt (requesting some information related to the URL). Langchain will analyze the page and return the requested information based on the prompt.
 exemplos de entrada em Json: 
 
 INPUT: 
@@ -9,17 +7,15 @@ INPUT:
 	"prompt":"Me fale videos para aprender a investir meu dinheiro."
 }
 
-OUTPUT:
+OUTPUT: "There are many YouTube channels that offer quality content on investments. Here are some channels and videos that might be useful:\n\n Investor Channel: Provides tips and strategies for investing in stocks, funds, and other assets.\n* Smart Investments: Covers topics such as financial planning, real estate investments, and cryptocurrencies.\n* Investment Lessons: Offers practical lessons on stock investing, options, and futures.\n* Financial Education: Provides videos on financial planning, budgeting, and investments.\n\nSome specific videos that may be useful include:\n\n* \"How to Start Investing in Stocks\" (Investor Channel)\n* \"5 Tips for Investing in Cryptocurrencies\" (Smart Investments)\n* \"The Ultimate Guide to Investing in Funds\" (Investment Lessons)\n* \"How to Create a Personalized Investment Plan\" (Financial Education)\n\nRemember, it is important to do your own research and not invest in anything you don’t fully understand. Additionally, it is always advisable to consult a financial professional before making investment decisions."*
 
-"Existem muitos canais no YouTube que oferecem conteúdo de qualidade sobre investimentos. Aqui estão alguns canais e vídeos que podem ser úteis:\n\n* **Canal do Investidor**: Oferece dicas e estratégias para investir em ações, fundos e outros ativos.\n* **Investimentos Inteligentes**: Aborda temas como planejamento financeiro, investimentos em imóveis e criptomoedas.\n* **Aulas de Investimento**: Fornece lições práticas sobre investimentos em ações, opções e futuros.\n* **Educação Financeira**: Oferece vídeos sobre planejamento financeiro, orçamento e investimentos.\n\nAlguns vídeos específicos que podem ser úteis incluem:\n\n* \"Como começar a investir em ações\" (Canal do Investidor)\n* \"5 dicas para investir em criptomoedas\" (Investimentos Inteligentes)\n* \"O guia definitivo para investir em fundos\" (Aulas de Investimento)\n* \"Como criar um plano de investimento personalizado\" (Educação Financeira)\n\nLembre-se de que é importante fazer sua própria pesquisa e não investir em nada que você não entenda completamente. Além disso, é sempre recomendável consultar um profissional financeiro antes de tomar decisões de investimento."
+Notices:
 
+If you want, you can make this API fetch data from a single site without needing to enter the URL manually. Simply replace the site URL here with the dados.url variable:
 
-AVISOS:
+loader = WebBaseLoader(f"https://{dados.url}/") # Passing the site URL to be analyzed
 
-se você quiser pode fazer essa api pegar dados de um unico site, sem precisar digitar a URL,
-basta colocar o site aqui em troca da variavel dados.url:
+URLs I Have Already Tested:
 
-loader = WebBaseLoader(f"https://{dados.url}/") # passando a URL do site que deve ser analisado
+ge.globo.com - A sports news website
 
-URL'S que eu ja testei 
-	ge.globo.com - site de noticias de esportes
