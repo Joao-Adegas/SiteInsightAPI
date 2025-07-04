@@ -1,12 +1,8 @@
 #### This is an API where the user can enter a URL and provide a prompt (requesting some information related to the URL). Langchain will analyze the page and return the requested information based on the prompt.
 
-
-### Example in Json: 
-
 ### Prerequisites:
 
 - Create an API key on the Groq website: https://console.groq.com/keys
-- Store this variable in an environment variable file (.env)
 - Copy link 
 - Add the archive ".env" in the project root
 - In archive ".env" write: GROQ_API_KEY = "your_api_key"
@@ -14,6 +10,7 @@
 ### Replace your_api_key with your api key*
 ### Your api key must be inside the quotes " " 
 
+### Example in JSON: 
 
 #### INPUT: 
     {
