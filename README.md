@@ -29,7 +29,8 @@
 
 #### URLs I Have Already Tested:
 
-    ge.globo.com - A sports news website
+- ge.globo.com
+- g1.globo.com
 
 #### You can enter the url in two ways:
 
