@@ -1,6 +1,6 @@
 from langchain_community.document_loaders import WebBaseLoader
 from langchain_groq import ChatGroq
-from langchain.prompts import ChatPromptTemplate
+from langchain_core.prompts import ChatPromptTemplate
 from fastapi.middleware.cors import CORSMiddleware 
 from fastapi import FastAPI
 from model import InputData
